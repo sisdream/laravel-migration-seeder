@@ -18,12 +18,12 @@ return new class extends Migration
             $table->string("Azienda");
             $table->string("Stazione di partenza");
             $table->string("Stazione di arrivo");
-            $table->date("Orario di partenza");
-            $table->date("Orario di arrivo");
+            $table->time("Orario di partenza");
+            $table->time("Orario di arrivo");
             $table->integer("Codice Treno");
             $table->integer("Numero Carrozze");
-            $table->date("In orario");
-            $table->string("Cancellato");
+            $table->time("In orario");
+            $table->boolean("Cancellato");
         });
     }
 
