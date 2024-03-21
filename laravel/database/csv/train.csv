@@ -1,0 +1,4 @@
+"id","azienda","stazione_partenza","stazione_arrivo","orario_partenza","orario_arrivo","codice_treno","numero_carrozze","in_orario","cancellato"
+7,"Italo","Roma","Milano","20:06:34","23:55:34","13417",6,1,0
+3,"Freccia rossa","Napoli","Milano","10:06:34","16:55:34","34562",5,1,1
+4,"EAV","Torre Annunziata","Sorrento","07:06:34","08:15:34","98542",5,0,1
